@@ -1,0 +1,25 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #f5f7fa; min-height: 100vh; display: flex; flex-direction: column; }
+nav { background: #2c5f2e; padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; }
+nav .brand { color: #f5c518; font-size: 18px; font-weight: bold; }
+nav a { color: white; text-decoration: none; font-size: 14px; margin-left: 16px; }
+nav a:hover { text-decoration: underline; }
+.container { width: 420px; margin: 60px auto; background: white; border-radius: 8px; padding: 30px; box-shadow: 0 2px 16px rgba(0,0,0,0.1); }
+.container h2 { text-align: center; color: #2c5f2e; margin-bottom: 12px; }
+hr { border: none; border-top: 1px solid #eee; margin-bottom: 20px; }
+input, textarea, select { width: 100%; padding: 10px 14px; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px; font-family: inherit; }
+input:focus, textarea:focus { border-color: #2c5f2e; outline: none; }
+textarea { height: 180px; resize: vertical; }
+button, .btn { width: 100%; padding: 11px; background: #2c5f2e; color: white; border: none; border-radius: 5px; font-size: 15px; cursor: pointer; margin-top: 4px; }
+button:hover { background: #3a7a3c; }
+.btn-secondary { background: #888; margin-top: 8px; display: block; text-align: center; text-decoration: none; border-radius: 5px; padding: 10px; color: white; }
+p.note { text-align: center; margin-top: 14px; font-size: 13px; color: #555; }
+p.note a { color: #2c5f2e; font-weight: bold; text-decoration: none; }
+.error { background: #fdecea; color: #c0392b; padding: 8px 12px; border-radius: 4px; margin-bottom: 14px; font-size: 13px; }
+.success { background: #e8f5e9; color: #2c5f2e; padding: 8px 12px; border-radius: 4px; margin-bottom: 14px; font-size: 13px; }
+table { width: 100%; border-collapse: collapse; background: white; font-size: 14px; }
+th { background: #2c5f2e; color: white; padding: 10px; text-align: left; }
+td { padding: 10px; border-bottom: 1px solid #eee; }
+tr:nth-child(even) td { background: #f9f9f9; }
+.table-wrap { padding: 20px; }
+footer { margin-top: auto; background: #2c5f2e; color: #c8e6c9; text-align: center; padding: 12px; font-size: 12px; }
